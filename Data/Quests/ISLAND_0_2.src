@@ -1,0 +1,4 @@
+set_background_sound("seagulls.ogg")
+
+if items_placement[0] is True:
+	place_item(MEDICINE, 615, 500)

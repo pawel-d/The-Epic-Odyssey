@@ -1,0 +1,8 @@
+map1 = load_map("Island")
+set_map(map1)
+
+main_character = load_human("Homer")
+place_unit(main_character, 615, 450)
+set_player_character(main_character)
+
+set_music("island.ogg")
